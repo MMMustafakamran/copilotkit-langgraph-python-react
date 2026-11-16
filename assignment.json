@@ -1,0 +1,1135 @@
+{
+ "framework": "LangGraph Python",
+ "ui": "react",
+ "repo": "LangGraphPy-React",
+ "docBase": "https://docs.copilotkit.ai/langgraph-python/",
+ "versions": {
+  "@copilotkit/react-core": "1.88.0",
+  "@copilotkit/runtime": "1.88.0",
+  "langgraph": "1.2.22",
+  "langgraph-cli": "0.4.43",
+  "langchain-openai": "1.8.0",
+  "langchain-core": "1.8.1",
+  "next": "16.4.5",
+  "react": "19.3.0",
+  "copilotkit": "0.1.97",
+  "ag-ui-langgraph": "0.0.47"
+ },
+ "testedContext": {
+  "os": "Microsoft Windows 11 Pro",
+  "packageManager": "npm 11 (Node 26.7.0)"
+ },
+ "report": {
+  "style": "team",
+  "h1": "LangGraph",
+  "title": "LangGraph Python testing",
+  "quickstartHeading": "Quickstarts",
+  "quickstartHeader": null,
+  "clipsToUpload": true,
+  "guidesHeading": "React Guides",
+  "columns": [
+   "Page/Section",
+   "LangGraph.python",
+   "LangGraph.js"
+  ],
+  "resultColumn": 1
+ },
+ "sections": [
+  {
+   "label": "Basics",
+   "cells": [
+    "Section",
+    "Section"
+   ]
+  },
+  {
+   "label": "Chat",
+   "cells": [
+    "Sub section",
+    "Sub Section"
+   ]
+  },
+  {
+   "label": "Prebuilt Components",
+   "cells": [
+    "",
+    ""
+   ]
+  },
+  {
+   "label": "Custom Look and Feel",
+   "cells": [
+    "Sub section",
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Built Generative UI",
+   "cells": [
+    "Section",
+    "Section"
+   ]
+  },
+  {
+   "label": "Controlled",
+   "cells": [
+    "Sub-Section",
+    "Sub-Section"
+   ]
+  },
+  {
+   "label": "Declarative",
+   "cells": [
+    "Sub-Section",
+    "Sub-Section"
+   ]
+  },
+  {
+   "label": "A2UI",
+   "cells": [
+    "Sub-Section",
+    "Sub-Section"
+   ]
+  },
+  {
+   "label": "Interactivity",
+   "cells": [
+    "Section",
+    "Section"
+   ]
+  },
+  {
+   "label": "Shared State",
+   "cells": [
+    "Section",
+    "Section"
+   ]
+  },
+  {
+   "label": "Agent Capabilities",
+   "cells": [
+    "Section",
+    "Section"
+   ]
+  },
+  {
+   "label": "LangGraph",
+   "cells": [
+    "Sub Section",
+    "Sub Section"
+   ]
+  },
+  {
+   "label": "Debugging",
+   "cells": [
+    "Section",
+    "Section"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "id": "quickstart",
+   "label": "JS (React)",
+   "kind": "quickstart",
+   "group": null,
+   "child": false,
+   "docPath": "quickstart",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-01-Quickstart",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "quickstart-fastapi",
+   "label": "JS (React) – FastAPI (bring your own agent)",
+   "kind": "quickstart",
+   "group": null,
+   "child": false,
+   "docPath": "quickstart",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-02-QuickstartFastAPI",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "prebuilt-components-chat",
+   "label": "CopilotChat",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": false,
+   "docPath": "prebuilt-components/chat",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-19-PrebuiltChat",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "prebuilt-components-sidebar",
+   "label": "CopilotSidebar",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": false,
+   "docPath": "prebuilt-components/sidebar",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-21-PrebuiltSidebar",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "prebuilt-components-popup",
+   "label": "CopilotPopup",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": false,
+   "docPath": "prebuilt-components/popup",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-20-PrebuiltPopup",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "prebuilt-components-chat-controls",
+   "label": "Open,Close and Feedback",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": false,
+   "docPath": "prebuilt-components/chat-controls",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-22-ChatControls",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "prebuilt-components-copilot-threads-drawer",
+   "label": "Threads",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": false,
+   "docPath": "prebuilt-components/copilot-threads-drawer",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-56-ThreadsDrawer",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "headless-threads",
+   "label": "Headless Threads",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": false,
+   "docPath": "headless-threads",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-57-HeadlessThreads",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "custom-look-and-feel-css",
+   "label": "Css Customization",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "custom-look-and-feel/css",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-23-CSS",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "custom-look-and-feel-markdown",
+   "label": "Markdown",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "custom-look-and-feel/markdown",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-26-Markdown",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "custom-look-and-feel-slots",
+   "label": "Slots",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "custom-look-and-feel/slots",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-24-Slots",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "custom-look-and-feel-headless-ui",
+   "label": "Fully Headless UI",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "custom-look-and-feel/headless-ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-25-HeadlessUI",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-reasoning",
+   "label": "Reasoning",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "generative-ui/reasoning",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-13-Reasoning",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "custom-look-and-feel-reasoning-messages",
+   "label": "Reasoning Messages",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "custom-look-and-feel/reasoning-messages",
+   "reachable": "sidebar",
+   "status": "✅",
+   "excluded": "not in the team testing doc's LangGraph list (owner, 2026-11-08)",
+   "links": []
+  },
+  {
+   "id": "multimodal-attachments",
+   "label": "Multimodal Attachments",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "multimodal-attachments",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-44-Multimodal",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "label": "Voice",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "voice",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-55-Voice",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "frontend-tools",
+   "label": "Frontend Tools",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "frontend-tools",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-03-FrontendTools",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-tool-based",
+   "label": "Components as Tools",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": true,
+   "docPath": "generative-ui/tool-based",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-46-ComponentsAsTools",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-tool-rendering",
+   "label": "Tool Call Rendering",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": true,
+   "docPath": "generative-ui/tool-rendering",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-10-ToolRendering",
+     "loom": null,
+     "filmed": null
+    },
+    {
+     "text": "Default renderer - JS",
+     "clip": "LGPY-react-11-ToolRenderingDefault",
+     "loom": null,
+     "filmed": null
+    },
+    {
+     "text": "Custom catch-all - JS",
+     "clip": "LGPY-react-12-ToolRenderingCustom",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-state-rendering",
+   "label": "State Rendering",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": true,
+   "docPath": "generative-ui/state-rendering",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-47-StateRendering",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components",
+   "label": "Components and Surfaces",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    16
+   ],
+   "notes": "Issue: with CopilotKit 1.88 the agent calls render_ui but no renderer is registered, the answer comes back as plain text, no component.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-14-Components",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components-surfaces",
+   "label": "Surfaces",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/surfaces",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    4
+   ],
+   "notes": "Issue: the agent calls render_ui but no renderer is registered, the featured products area never updates (3/3 runs).",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-35-ComponentsSurfaces",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components-catalogs",
+   "label": "Catalogs",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/catalogs",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-34-ComponentsCatalogs",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components-standard-catalog",
+   "label": "Standard catalog",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/standard-catalog",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [],
+   "notes": "Note: flaky with CopilotKit 1.88, 2 of 3 CI runs gave an empty table (No rows) or no reply; works on the 3rd."
+  },
+  {
+   "id": "generative-ui-components-state-and-actions",
+   "label": "State and actions",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/state-and-actions",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    16
+   ],
+   "notes": "Issue: with CopilotKit 1.88 render_ui has no renderer, no product cards render.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-38-ComponentsStateActions",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components-theming",
+   "label": "Theming",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/theming",
+   "reachable": "sidebar",
+   "status": "✅",
+   "notes": "Note: now working (theme accent applied).",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-36-ComponentsTheming",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components-transports",
+   "label": "Transports",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/transports",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-37-ComponentsTransports",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components-markdown-mode",
+   "label": "Markdown mode",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/markdown-mode",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-39-ComponentsMarkdownMode",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-components-from-a2ui",
+   "label": "Adopt from A2UI",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/components/from-a2ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-49-ComponentsFromA2UI",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-a2ui",
+   "label": "A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/a2ui",
+   "reachable": "sidebar",
+   "status": "❌",
+   "excluded": "not in the team testing doc's LangGraph list (owner, 2026-11-08)",
+   "findings": [
+    1
+   ],
+   "notes": "Issue: with the Python agent the generate_a2ui tool crashes (bound to a different event loop), no dashboard renders.",
+   "links": []
+  },
+  {
+   "id": "generative-ui-a2ui-dynamic-schema",
+   "label": "Dynamic Schema A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/a2ui/dynamic-schema",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    1
+   ],
+   "notes": "Issue: the default path crashes on every run (generate_a2ui: bound to a different event loop), no dashboard renders. The page also shows no Python agent for the default path.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-32-A2UIDynamicSchema",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-a2ui-fixed-schema",
+   "label": "Fixed Schema A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/a2ui/fixed-schema",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    2
+   ],
+   "notes": "Issue: the flight card renders but every bound field (airports, price) stays empty.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-33-A2UIFixedSchema",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-json-render",
+   "label": "JSON Render",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/json-render",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-28-JsonRender",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-hashbrown",
+   "label": "Hashbrown",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/hashbrown",
+   "reachable": "sidebar",
+   "status": "⚠️",
+   "findings": [
+    17
+   ],
+   "notes": "Issue: the page gives no LangGraph Python agent, had to write it by hand; with it the dashboard renders.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-29-Hashbrown",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-open-generative-ui",
+   "label": "Open Generative UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/open-generative-ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "notes": "Note: now working. VISUALIZATION_DESIGN_SKILL is never defined on the page.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-30-OpenGenerativeUI",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "generative-ui-mcp-apps",
+   "label": "MCP Apps",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/mcp-apps",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-15-McpApps",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "shared-state",
+   "label": "Shared State",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": false,
+   "docPath": "shared-state",
+   "reachable": "sidebar",
+   "status": "✅",
+   "excluded": "not in the team testing doc's LangGraph list (owner, 2026-11-08)",
+   "links": []
+  },
+  {
+   "id": "shared-state-rendering-in-app",
+   "label": "Render agent state in your app",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": false,
+   "docPath": "shared-state/rendering-in-app",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3
+   ],
+   "notes": "Issue: useAgent() with no agentId looks for the 'default' agent, the quickstart only registers sample_agent, page crashes.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-50-RenderAgentState",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "shared-state-streaming",
+   "label": "State Streaming",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": false,
+   "docPath": "shared-state/streaming",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-09-StateStreaming",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "shared-state-agent-readonly",
+   "label": "Agent read-only context",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": false,
+   "docPath": "shared-state/agent-readonly",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-40-AgentReadOnly",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "human-in-the-loop",
+   "label": "Human in the Loop",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": false,
+   "docPath": "human-in-the-loop",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-04-HumanInTheLoop",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "human-in-the-loop-useinterrupt",
+   "label": "Pausing the agent state for input",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": true,
+   "docPath": "human-in-the-loop/useInterrupt",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "notes": "Note: the page says \"Not supported on LangGraph (Python)\".",
+   "links": []
+  },
+  {
+   "id": "human-in-the-loop-headless",
+   "label": "Headless Interrupts",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": true,
+   "docPath": "human-in-the-loop/headless",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "notes": "Note: the page says \"Not supported on LangGraph (Python)\".",
+   "links": []
+  },
+  {
+   "id": "human-in-the-loop-governed-actions",
+   "label": "Governed Actions Approval UI",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": true,
+   "docPath": "human-in-the-loop/governed-actions",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-41-GovernedActions",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "webmcp",
+   "label": "Web MCP",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": false,
+   "docPath": "webmcp",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-18-WebMCP",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "agent-app-context",
+   "label": "Readables",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": false,
+   "docPath": "agent-app-context",
+   "reachable": "sidebar",
+   "status": "–",
+   "links": []
+  },
+  {
+   "id": "agent-app-context-impl-graph",
+   "label": "Custom Graph",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": true,
+   "docPath": "agent-app-context?impl=graph",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-42-AgentAppContext",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "agent-app-context-impl-prebuilt",
+   "label": "Pre-built",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": true,
+   "docPath": "agent-app-context?impl=prebuilt",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-51-ReadablesPrebuilt",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "agent-config",
+   "label": "Agent Config",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": false,
+   "docPath": "agent-config",
+   "reachable": "in-content",
+   "status": "✅",
+   "excluded": "not in the team testing doc's LangGraph list (owner, 2026-11-08)",
+   "reachableFrom": "Configurable (\"see Agent Config\"), Inspector",
+   "links": []
+  },
+  {
+   "id": "configurable",
+   "label": "Configurable",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": false,
+   "docPath": "configurable",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    5
+   ],
+   "notes": "Issue: Python build_agent uses undefined graph / AgentState and nothing wires it to an endpoint, frontend code is missing.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-53-Configurable",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "subgraphs",
+   "label": "Subgraphs",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": false,
+   "docPath": "subgraphs",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "notes": "Note: no runnable code on the page (one useAgent snippet).",
+   "links": []
+  },
+  {
+   "id": "guardrails",
+   "label": "Guardrails and DPL",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": false,
+   "docPath": "guardrails",
+   "reachable": "sidebar",
+   "status": "✅",
+   "notes": "Note: the helpers (screen_input, redact_sensitive, tool_call_allowed) are left to the reader and tools=[...] as written raises ValueError; filled in by hand.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-54-Guardrails",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "multi-agent-subagents",
+   "label": "Sub Agents",
+   "kind": "guide",
+   "group": "LangGraph",
+   "child": false,
+   "docPath": "multi-agent/subagents",
+   "reachable": "sidebar",
+   "status": "✅",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-16-SubAgents",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "inspector",
+   "label": "Inspector",
+   "kind": "guide",
+   "group": "Debugging",
+   "child": false,
+   "docPath": "inspector",
+   "reachable": "sidebar",
+   "status": "✅",
+   "excluded": "not in the team testing doc's LangGraph list (owner, 2026-11-08)",
+   "links": []
+  },
+  {
+   "id": "programmatic-control",
+   "label": "Programmatic Control",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": false,
+   "docPath": "programmatic-control",
+   "reachable": "in-content",
+   "linkedFrom": "prebuilt-components/chat-controls",
+   "status": "✅",
+   "notes": "Note: the page does not say where to mount AgentTrigger.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-45-ProgrammaticControl",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  },
+  {
+   "id": "human-in-the-loop-interrupt-flow",
+   "label": "Interrupt flow",
+   "kind": "guide",
+   "group": "Shared State",
+   "child": true,
+   "docPath": "human-in-the-loop/interrupt-flow",
+   "reachable": "in-content",
+   "linkedFrom": "(intro page)",
+   "status": "✅",
+   "notes": "Note: agent.py never builds/compiles a graph; wired by hand.",
+   "links": [
+    {
+     "text": null,
+     "clip": "LGPY-react-07-InterruptFlow",
+     "loom": null,
+     "filmed": null
+    }
+   ]
+  }
+ ]
+}
